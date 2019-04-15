@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>WaterMarker</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <body>
+    <div id="container">
+      <button id="createBtn">UTWÓRZ</button>
+      <div id="headContainer">
+        <div id="headBefore" class="head">
+          <input type="file" id="imgBefore" name="imgBefore" /><br>
+          <div class="headLabel">PRZED</div>
+        </div>
+        <div id="headAfter" class="head">
+          <input type="file" id="imgAfter" name="imgAfter" /><br>
+          <div class="headLabel">PO</div>
+        </div>
+      </div>
+      <div id="canvasContainer">
+        <canvas id="imgCanvas"></canvas>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
